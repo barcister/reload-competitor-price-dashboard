@@ -1,0 +1,99 @@
+providers:
+  - storefront_name: Revendo
+    underlying_provider_name: Revendo
+    provider_type: LISTING_SOURCE
+    compare_mode: sell_price
+    priority: 1
+    connector_key: revendo
+    support_level: FULL_SUPPORT
+  - storefront_name: refurbed.ch
+    underlying_provider_name: Refurbed Marketplace
+    provider_type: MARKETPLACE_SOURCE
+    compare_mode: sell_price
+    priority: 1
+    connector_key: refurbed_ch
+    support_level: FULL_SUPPORT
+  - storefront_name: Back Market CH
+    underlying_provider_name: Back Market
+    provider_type: MARKETPLACE_SOURCE
+    compare_mode: sell_price
+    priority: 1
+    connector_key: backmarket_ch
+    support_level: FULL_SUPPORT
+  - storefront_name: Digitec Secondhand
+    underlying_provider_name: Digitec
+    provider_type: MARKETPLACE_SOURCE
+    compare_mode: sell_price
+    priority: 1
+    connector_key: digitec_secondhand
+    support_level: PARTIAL_SUPPORT
+  - storefront_name: Galaxus Refurbished
+    underlying_provider_name: Galaxus
+    provider_type: MARKETPLACE_SOURCE
+    compare_mode: sell_price
+    priority: 1
+    connector_key: galaxus_refurbished
+    support_level: PARTIAL_SUPPORT
+  - storefront_name: MediaMarkt Refurbished
+    underlying_provider_name: MediaMarkt
+    provider_type: LISTING_SOURCE
+    compare_mode: sell_price
+    priority: 1
+    connector_key: mediamarkt_refurbished
+    support_level: LIMITED_SUPPORT
+  - storefront_name: Fust Refurbished
+    underlying_provider_name: Fust
+    provider_type: LISTING_SOURCE
+    compare_mode: sell_price
+    priority: 2
+    connector_key: fust_refurbished
+    support_level: LIMITED_SUPPORT
+  - storefront_name: Swisscom Occasion
+    underlying_provider_name: Swisscom
+    provider_type: LISTING_SOURCE
+    compare_mode: sell_price
+    priority: 2
+    connector_key: swisscom_occasion
+    support_level: LIMITED_SUPPORT
+  - storefront_name: Swisscom Buyback
+    underlying_provider_name: Swisscom
+    provider_type: BUYBACK_QUOTE_SOURCE
+    compare_mode: buyback_quote
+    priority: 3
+    connector_key: swisscom_buyback
+    support_level: PARTIAL_SUPPORT
+  - storefront_name: Sunrise Buyback
+    underlying_provider_name: Sunrise
+    provider_type: BUYBACK_QUOTE_SOURCE
+    compare_mode: buyback_quote
+    priority: 3
+    connector_key: sunrise_buyback
+    support_level: LIMITED_SUPPORT
+  - storefront_name: Salt Buyback
+    underlying_provider_name: Salt
+    provider_type: BUYBACK_QUOTE_SOURCE
+    compare_mode: buyback_quote
+    priority: 3
+    connector_key: salt_buyback
+    support_level: LIMITED_SUPPORT
+  - storefront_name: Brack
+    underlying_provider_name: Brack
+    provider_type: NEW_PRICE_ANCHOR
+    compare_mode: new_price_anchor
+    priority: 4
+    connector_key: brack_new
+    support_level: PARTIAL_SUPPORT
+  - storefront_name: Digitec New
+    underlying_provider_name: Digitec
+    provider_type: NEW_PRICE_ANCHOR
+    compare_mode: new_price_anchor
+    priority: 4
+    connector_key: digitec_new
+    support_level: PARTIAL_SUPPORT
+  - storefront_name: Interdiscount New
+    underlying_provider_name: Interdiscount
+    provider_type: NEW_PRICE_ANCHOR
+    compare_mode: new_price_anchor
+    priority: 4
+    connector_key: interdiscount_new
+    support_level: PARTIAL_SUPPORT
